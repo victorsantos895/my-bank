@@ -171,7 +171,7 @@ class AccountForm extends React.Component {
               />
             </Form.Group>
             <Button
-              variant="primary"
+              variant="primary att-button"
               onClick={() => this.handleUpdateAccount(ifsc)}
             >
               Update details
