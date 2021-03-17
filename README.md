@@ -3,7 +3,11 @@
 <p align="center">Banking Application developed with <a href="https://javascript.plainenglish.io/create-a-fullstack-banking-application-using-react-e8c96d74cd39">Yogesh's Medium Article</a> </p>
 
 <p align="center">
-  <img src="src/assets/demo.gif" alt="animated" />
+  <img src="src/assets/demo1.gif" alt="animated" />
+</p>
+
+<p align="center">
+  <img src="src/assets/demo2.gif" alt="animated" />
 </p>
 
 <h1 align="left">🎯 The Project </h1>
