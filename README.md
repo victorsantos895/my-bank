@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<h1 align="center">My Bank</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Banking Application developed with <a href="https://javascript.plainenglish.io/create-a-fullstack-banking-application-using-react-e8c96d74cd39">Yogesh's Medium Article</a> </p>
 
-## Available Scripts
+<p align="center">
+  <img src="src/assets/demo1.gif" alt="animated" />
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="src/assets/demo2.gif" alt="animated" />
+</p>
 
-### `yarn start`
+<h1 align="left">🎯 The Project </h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p> Banking application created using PostgreSQL, Express, React and Node.js. </p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h1 align="left">🛠️ Technologies used </h1>
 
-### `yarn test`
+- [React](https://pt-br.reactjs.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1 align="left">⚙️ Install </h1>
 
-### `yarn build`
+### 🔙 Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before starting, you will need to have installed in your computes the following tools:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com/). </br>
+Besides that, it´s good to have a editor to work with your code, like [VSCode](https://code.visualstudio.com/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔽 Cloning the repository
+```bash
+$ git clone <https://github.com/victorsantss/my-bank.git>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🗄️ Connect to PostgreSQL Database
+Add Postgresql database connection details in server/db/connect.js file.
 
-### `yarn eject`
+### 📝 Add database tables
+Execute sql scripts from server/scripts.sql file on your database.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🖥️ Starting the application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Acess the server folder
+$ cd server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Install the dependencies
+$ yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Start the server
+$ yarn start
 
-## Learn More
+# Go back to the app folder
+$ cd ..
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install the dependencies
+$ yarn install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start the Application
+$ yarn start
 
-### Code Splitting
+# The app will run on port:3000 - acess <http://localhost:3000>
+```
+<br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was made with 💙 by [Victor Santos](https://github.com/victorsantss)
 
-### Analyzing the Bundle Size
+Contact me if you want: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Linkedin Badge](https://img.shields.io/badge/-Victor%20Santos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/victor-santss/)](https://www.linkedin.com/in/victor-santss/)
+[![Gmail Badge](https://img.shields.io/badge/-victords895@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:victords895@gmail.com)](mailto:victords895@gmail.com)
