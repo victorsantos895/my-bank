@@ -31,7 +31,7 @@ Besides that, it´s good to have a editor to work with your code, like [VSCode](
 
 ### 🔽 Cloning the repository
 ```bash
-$ git clone <https://github.com/victorsantss/my-bank.git>
+$ git clone https://github.com/victorsantss/my-bank.git
 ```
 
 ### 🗄️ Connect to PostgreSQL Database
